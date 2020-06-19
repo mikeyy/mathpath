@@ -1,8 +1,10 @@
 # Time synchronization
-
 bases = 4
 dimensions = 3
 steps = (bases * dimensions)
-time = (steps ** steps)
-while 1:
-    time = (time * time)
+
+b = ['(' for step in range(81)]
+c = [' ** steps)' for step in range(81)]
+d =  ''.join(b) + 'steps' +''.join(c)
+print(d)
+e = eval(d)
