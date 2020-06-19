@@ -1,8 +1,8 @@
 # Time synchronization
 
-sides = 3
-bases = 10
-step = (sides / bases)
+bases = 4
+dimensions = 3
+steps = (bases * dimensions)
+time = (steps ** steps)
 while 1:
-    current_time = (step ** step)
-    print(current_time)
+    time = (time * time)
