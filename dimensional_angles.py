@@ -15,14 +15,3 @@ angles = ((steps-1) * (steps-2)) ** steps
 while 1:
     angles = angles ** steps
     print(len(str(angles)))
-
-
-'''
-waves = sound_files[0]
-frequencies = [0, 1]
-
-frequency = 1hz  
-clock_speed = frequency/3
-calculation = clock_speed
-
-'''
